@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    height: 120px;
+}
+
+#logo {
+    padding: 30px;
+    height: 80px;
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+}
+
+.link {
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sobre {
+    background-image: url("background/mob_bg.jpg");
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+}
+
+#title1, #p1{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.678);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+
+#title1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#p1 {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#topicos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.images {
+    border-radius: 100%;
+    border: solid rgb(179, 179, 23) 2px;
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.div_topicos {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+    width: 170px;
+    height: 280px;
+    background-color: rgba(255, 255, 0, 0.918);
+}
+
+.div_topicos:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.div_topicos h3 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div_topicos p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    height: 140px;    
+    margin-top: 200px;
+}
+
+#img-footer {
+    padding: 30px;
+    height: 70px;
+    width: 180px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.div_banner {
+    height: 600px;
+    width: 410px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img_banner {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#text_banner {
+    background-color: beige;
+    flex-direction: column;
+}
+
+#text_banner h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-weight: lighter;
+}
+
+#text_banner p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#album {
+    margin-top: 130px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#album img {
+    height: 300px;
+    width: auto;
+    border: solid yellow 1.5px;
+}
+
+#album img:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+    border: solid orange 2px;
+}
